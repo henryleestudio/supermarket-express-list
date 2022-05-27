@@ -1,2 +1,2 @@
 # Grocery log
-An efficient way to keep track of what groceries to purchase.
+Keep track of what groceries to purchase. Simply and efficiently.
