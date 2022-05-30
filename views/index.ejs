@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>checklist</title>
+
+  <script src="https://kit.fontawesome.com/1589047438.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+  <h1> Supermarket <span>express list</span> </h1>
+
+  <p> Select  <i class="fa-solid fa-check"></i>  when completed.</p>
+
+  <!-- action includes a url parameter? CRUD are methods that tells the brower what type of request to send to the server.. The server pull info from the database.. -->
+  <!-- action tells the brower where to send the POST request, in this case to '/quotes' -->
+  <form action="/quotes" method="POST">
+    <input type="text" placeholder="item" name="item">
+    <input type="text" placeholder="note?" name="note">
+    <button type="submit">Submit</button>
+  </form>
+  <!-- must include the name attribute to catigories the info on the server -->
+
+
+  <h2>  </h2>
+
+<ol class="quotes">
+  <!-- Loop through quotes -->
+  <% for(var i = 0; i < quotes.length; i++) {%>
+    <li class="quote">
+      <!-- Output name from the iterated quote object -->
+      <span><%= quotes[i].item %></span>:
+      <!-- Output quote from the iterated quote object -->
+      <span><%= quotes[i].note %></span>
+      <span>  <i class="fa-solid fa-check"></i></span>
+    </li>
+  <% } %>
+</ol>
+
+<div>
+  <p>Replace item</p>
+  <form>
+    <input id="replace" type="text" placeholder="item to replace" name="item">
+
+    <input id="replacementItem" type="text" placeholder="new item" name="newItem">
+
+    <input id="replacementNote" type="text" placeholder="new note" name="note">
+    <button id="update-button">Replace</button>
+  </form>
+</div>
+
+<div>
+  <p>
+    Remove all items
+  </p>
+  <button id="delete-button">Remove</button>
+</div>
+
+<div id="message"></div>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

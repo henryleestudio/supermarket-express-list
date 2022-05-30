@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Tiro Devanagari Marathi', serif;
+  background-image: url(img/background-2.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  color: white;
+  /* color: #52a95a; */
+  /* color: #7ec3b7; */
+  /* 52a95a
+  29654d */
+}
+
+main{
+  margin: 9%;
+  width: 40rem;
+}
+
+h1{
+  line-height: 5.7rem;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+h1 span{
+  font-size: 3.7rem;
+}
+
+#replace{
+  display: block;
+}
+
+p{
+  font-size: 2.2rem;
+  width: 29rem;
+  margin-top: -3rem;
+}
+
+ol{
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+div{
+  margin-top: 5rem;
+}

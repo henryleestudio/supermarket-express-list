@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY SIMPLE APP</title>
+</head>
+<body>
+  <h1> May Node and Express be with you. </h1>
+
+  <!-- action includes a url parameter? CRUD are methods that tells the brower what type of request to send to the server.. The server pull info from the database.. -->
+  <!-- action tells the brower where to send the POST request, in this case to '/quotes' -->
+  <form action="/quotes" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="quote" name="quote">
+    <button type="submit">Submit</button>
+  </form>
+  <!-- must include the name attribute to catigories the info on the server -->
+
+</body>
+</html>
