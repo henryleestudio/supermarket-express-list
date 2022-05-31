@@ -29,12 +29,12 @@
 
 <ol class="quotes">
   <!-- Loop through quotes -->
-  <% for(var i = 0; i < quotes.length; i++) {%>
+  <% for(var i = 0; i < expressList.length; i++) {%>
     <li class="quote">
       <!-- Output name from the iterated quote object -->
-      <span><%= quotes[i].item %></span>:
+      <span><%= expressList[i].item %></span>:
       <!-- Output quote from the iterated quote object -->
-      <span><%= quotes[i].note %></span>
+      <span><%= expressList[i].note %></span>
       <span>  <i class="fa-solid fa-check"></i></span>
     </li>
   <% } %>
