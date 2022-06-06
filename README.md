@@ -1,7 +1,7 @@
 # Supermarket express list
 A simple and efficient way to Keep track of what items to purchase.
 
-JavaScript | Node.js | Express | Mongodb | Bootstrap | Graphic Design | Graphic Art | Photoshop CC | HTML5 | CSS3 |
+JavaScript | Node.js | Express | Mongodb | Bootstrap | Graphic Design | Graphic Art | Photoshop CC | HTML5 | CSS3 
 
 Link to project: http://live-demos.com/
 
